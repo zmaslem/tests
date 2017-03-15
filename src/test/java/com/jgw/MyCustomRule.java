@@ -19,11 +19,18 @@ public class MyCustomRule implements TestRule {
         return new Statement() {
             @Override
             public void evaluate() throws Throwable {
-                System.out.println(label + " before");
+                before();
                 statement.evaluate();
-                System.out.println(label + " after");
+                after();
             }
         };
+    }
 
+    private void before() {
+        System.out.println(label + " before");
+    }
+
+    private void after() {
+        System.out.println(label + " after");
     }
 }
