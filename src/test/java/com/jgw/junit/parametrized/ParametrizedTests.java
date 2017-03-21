@@ -1,5 +1,6 @@
-package com.jgw;
+package com.jgw.junit.parametrized;
 
+import com.jgw.Fibonacci;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

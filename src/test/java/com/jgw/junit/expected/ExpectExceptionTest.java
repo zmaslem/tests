@@ -1,4 +1,4 @@
-package com.jgw;
+package com.jgw.junit.expected;
 
 import org.junit.Test;
 

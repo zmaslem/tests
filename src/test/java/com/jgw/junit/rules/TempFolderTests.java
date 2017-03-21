@@ -1,7 +1,6 @@
-package com.jgw;
+package com.jgw.junit.rules;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.tomcat.util.codec.Encoder;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;

@@ -1,4 +1,4 @@
-package com.jgw.categories;
+package com.jgw.junit.categories;
 
 import org.junit.experimental.categories.Categories;
 import org.junit.runner.RunWith;

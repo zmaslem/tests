@@ -1,4 +1,4 @@
-package com.jgw;
+package com.jgw.junit.rules;
 
 import org.junit.Rule;
 import org.junit.Test;

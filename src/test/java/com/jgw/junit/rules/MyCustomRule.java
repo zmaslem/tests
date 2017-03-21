@@ -1,4 +1,4 @@
-package com.jgw;
+package com.jgw.junit.rules;
 
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;

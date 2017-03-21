@@ -1,4 +1,4 @@
-package com.jgw.categories;
+package com.jgw.junit.categories;
 
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
